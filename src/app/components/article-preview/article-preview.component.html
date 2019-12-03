@@ -1,0 +1,13 @@
+<div class="item">
+    <h2   >{{article.title}}</h2>
+    <p>was created {{article.d_create}}</p>
+    <p>{{article.content.length | timeToRead}}</p>
+    <img [src]="article.image" alt="">
+    <a href="">read more</a>
+
+</div>
+<button (click)="deleteArticle(articleItem.title)">delete</button>
+        <button (click)="editArticle(articleItem.id)">change</button>
+
+
+<!-- *appNgIfAdmin -->

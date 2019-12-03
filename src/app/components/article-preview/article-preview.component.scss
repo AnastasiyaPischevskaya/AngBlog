@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.item {
+    width: 250px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.315);
+    margin: 10px;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+
+    p {
+        margin: 5px 0;
+    }
+
+    img {
+        width: 220px;
+    }
+
+    a {
+        text-decoration: black;
+        color: black;
+    }
+
+}
+
+.item :hover {
+    color: rgb(251, 255, 0);
+
+}

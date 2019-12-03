@@ -1,0 +1,24 @@
+<div class="container">
+  <aside>
+
+    <a [routerLink]="login">
+      <!-- <app-login>login</app-login> -->
+      Log In
+    </a>
+
+    <h2>Anthony's Blog</h2>
+    <img src="https://themes.3rdwavemedia.com/demo/devblog/assets/images/profile.png" alt="">
+    <div>
+      <p>Hi, my name is Anthony Doe. Briefly introduce yourself here. You can also provide a link to the about page.</p>
+      <a href="#">Find out more about me</a>
+    </div>
+    <ul>
+      <li><a href="#">Blog Home</a></li>
+      <li><a href="#">Blog Post</a></li>
+      <li><a href="#">About me</a></li>
+    </ul>
+  </aside>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>

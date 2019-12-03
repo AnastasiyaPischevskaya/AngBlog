@@ -1,0 +1,8 @@
+<div class="list">
+    <div *ngFor="let articleItem of list | async">
+        <a [routerLink]="['articles', articleItem.id]">
+            <app-article-preview [article]="articleItem" (delete)="onArticleDelete($event)"></app-article-preview>
+        </a>
+        
+    </div>
+</div>
